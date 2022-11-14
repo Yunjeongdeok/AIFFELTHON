@@ -13,4 +13,3 @@
 <h4>⚽️ Our Goals : 정해진 데이터에 한해서 빠르고 정확한 Object Detection에 최적화된 모델 모델링</h4>
 
 <h4>⚡️ Resolution : Precision과 Recall의 조화를 잘 맞춰보자!</h4>
-
