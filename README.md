@@ -21,7 +21,8 @@
 ---
 
 ## 🗓️ 프로젝트 진행 일정
-!(https://www.notion.so/modulabs/9803b79b86de4b6290bd2fb47bdaedbf?v=9f44e7a5dfa9413183b8370991c182f7)
+<img src="https://www.notion.so/modulabs/9803b79b86de4b6290bd2fb47bdaedbf?v=9f44e7a5dfa9413183b8370991c182f7"  width="700" height="370">
+
 ---
 
 ## 📑 프로젝트 진행 과정
