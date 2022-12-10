@@ -3,7 +3,7 @@
 ## 모델소개 및 선정 이유
 - 앞선 모델인 EfficientNet에서의 아이디어를 가져와서 object detection에 적합하게 만든 모델이 EfficientDet.
 - __Compound Scaling__ 기법 뿐만 아니라 __BiFPN__ 사용.
-- 에이모 측에서 제공받은 이미지의 사이즈가 크기 떄문에 파라미터 수를 효과적으로 줄일 수 있는 __BiFRN__을 사용하는 EfficientDet이 좋을 듯함.
+- 에이모 측에서 제공받은 이미지의 사이즈가 크기 떄문에 파라미터 수를 효과적으로 줄일 수 있는 __BiFRN__ 을 사용하는 EfficientDet이 좋을 듯함.
 - Real-Time Object Detection (SOTA) 기준 최상위 모델 YOLOv7과 EfficientDet-D7 성능 차이가 크지 않음.
 - 따라서 YOLOv7과 비교하기 좋을 듯함.
 ![image](https://user-images.githubusercontent.com/108502954/206827157-7c2ff475-fca1-4d74-998f-5c37bbc30cc2.png)
