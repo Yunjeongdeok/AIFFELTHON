@@ -36,9 +36,12 @@
    - [학습 진행 코드](https://github.com/minki-kwak/AIFFELTHON/blob/main/%EB%AA%A8%EB%8D%B8%EB%A7%81/Efficientdet/EfficientDet_tensorflow/EfficientDet_tensorflow_aimmo_training.ipynb)
 ## 학습 결과
 - epochs 100으론 mAP가 낮은 것을 확인함.
-- val_map 이미지
+   <img src = './EfficientDet_tensorflow/tensorflow_result/EfficientDet-d2_100_mAP.png'>
 - 학습결과를 확인해보니 car, truck, bus, pedestrain 중 truck과 bus만 detection한 것을 확인했다.
-- test 이미지
+   <img src = './EfficientDet_tensorflow/tensorflow_result/result_1.png'>
+   <img src = './EfficientDet_tensorflow/tensorflow_result/result_2.png'>
+   <img src = './EfficientDet_tensorflow/tensorflow_result/result_3.png'>
+   <img src = './EfficientDet_tensorflow/tensorflow_result/result_4.png'>
 ## 문제상황
 1. __car, truck, bus, pedestrain 중 truck과 bus만 detection함.__
   - 데이터를 확인해봤지만 이상이 없었음.
@@ -70,9 +73,12 @@
   - [학습 진행 코드](https://github.com/minki-kwak/AIFFELTHON/blob/main/%EB%AA%A8%EB%8D%B8%EB%A7%81/Efficientdet/EfficientDet_pytorch/EfficientDet_pytorch_aimmo_training.ipynb)
 ## 학습 결과
 - loss는 이상적으로 떨어지긴 하지만 최종 값이 크게 작지는 않음을 확인.
-- loss 이미지
+
 - mAP역시 tensorflow와 비교하여 오히려 안좋은 것을 확인.
-- mAP 이미지
+- val_mAP
+   <img src = './EfficientDet_pytorch/pytorch_result/EfficientDet-d0_val_mAP.png'>
+- test_mAP
+   <img src = './EfficientDet_pytorch/pytorch_result/EfficientDet-d0_test_mAP.png'>
 - 학습 결과를 시각화해보니 아예 detection을 잘못하고 있는 것을 확인.
 - test 이미지
 - 데이터를 확인해봤지만 이상은 없었음.
