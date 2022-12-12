@@ -35,14 +35,13 @@
 
 1. 아래의 그림과 같이 학습을 실패를 했다.
     
-![Untitled](https://user-images.githubusercontent.com/66895161/206948474-bf406c85-dfde-46d0-8a01-17a410b2c437.png)
+
     
 
 1. 원인 ⇒ img를 0.5로 resize했지만 label은 변환하지 않았다.
 2. 해결 ⇒ label도 크기(숫자)를 0.5로 resize했다.
 3. 아래의 사진은 학습결과가 아닌 cv2로 확인한 결과이다. img와 label이 잘 변환되었다.
 
-![Untitled](https://user-images.githubusercontent.com/66895161/206948645-08376c39-7d2b-46f9-bde3-95c0c80c0d69.png)
 
 ## **학습 결과**
 
@@ -50,7 +49,6 @@
 2. 아래의 사진과 같이 학습이 잘 되었음을 알 수 있다.
     - 트래픽 사인(신호등 등)은 train 전에 제거했기에 detection하지 않는다.
         
-![Untitled](https://user-images.githubusercontent.com/66895161/206948674-5439c5cb-ff1d-47bc-8490-783858ed06ff.png)
         
 
 1.  그림과 같이 큰 변화는 없었다. 사진도 비슷비슷했다.

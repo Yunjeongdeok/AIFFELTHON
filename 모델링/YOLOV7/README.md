@@ -30,19 +30,19 @@
     - yaml→ txt→ 이미지,라벨
 
 - yaml : (train.txt, val.txt, test.txt)의 경로, 클래스 수 , 클래스 이름 저장
-<img src="이미지_파일/yaml.png">
+
 
 - txt : images에 있는 이미지의 절대 경로를 저장한 txt파일,train,val,test로 구분
 <img src="이미지_파일/txt.png">
    
 - images : (train, val, test)로 구분된 이미지가 들어감
-<img src="이미지_파일/이미지.png">
+
 
 - labels : train,val,test로 구분된 txt 파일이 들어감.
-<img src="이미지_파일/라벨.png">
+
   
 - 라벨 txt 파일 내부 (클래스 넘버 , bbox (x,y,h,w))
-<img src="이미지_파일/라벨 txt.png">
+
 
 - input 파일 전체 구조
 <img src="이미지_파일/전체구조.png">

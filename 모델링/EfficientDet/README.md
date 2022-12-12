@@ -38,10 +38,7 @@
 - epochs 100으론 mAP가 낮은 것을 확인함.
    <img src = './EfficientDet_tensorflow/tensorflow_result/EfficientDet-d2_100_mAP.png'>
 - 학습 결과를 확인해보니 car, truck, bus, pedestrian 중 truck과 bus만 detection한 것을 확인했다.
-   <img src = './EfficientDet_tensorflow/tensorflow_result/result_1.png'>
-   <img src = './EfficientDet_tensorflow/tensorflow_result/result_2.png'>
-   <img src = './EfficientDet_tensorflow/tensorflow_result/result_3.png'>
-   <img src = './EfficientDet_tensorflow/tensorflow_result/result_4.png'>
+
 ## 문제상황
 1. __car, truck, bus, pedestrian 중 truck과 bus만 detection 함.__
   - 데이터를 확인해봤지만, 이상이 없었음.
@@ -80,10 +77,7 @@
 - test_mAP
    <img src = './EfficientDet_pytorch/pytorch_result/EfficientDet-d0_test_mAP.png'>
 - 학습 결과를 시각화해보니 아예 detection을 잘못하고 있는 것을 확인.
-   <img src = './EfficientDet_pytorch/pytorch_result/result_1.png'>
-   <img src = './EfficientDet_pytorch/pytorch_result/result_2.png'>
-   <img src = './EfficientDet_pytorch/pytorch_result/result_3.png'>
-   <img src = './EfficientDet_pytorch/pytorch_result/result_4.png'>
+  
 - 데이터를 확인해봤지만, 이상은 없었음.
 #### 시간상의 문제와 다른 모델의 문제로 EfficientDet 모델 대신 Faster-RCNN 모델에 집중하기로 함.
 ---
