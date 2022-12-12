@@ -90,5 +90,11 @@
     - lr 변경 기본 값에서 2배로 올리기
 - 아쉬움
     - MMdetection을 처음 다뤄봐서 배우는데 시간이 너무 많이 걸렸다.
-    - backbone을 ConvNeXt, Swin실험 등으로 바꿔서 하고 싶었으나 못했다.
-    - Sparse R-CNN, Double-Head R-CNN 등 다른 R-CNN 계열을 하지 못했다.
+    -  6년 전 모델인데도 YOLOv7과 비등비등한 결과를 얻었다.
+        - backbone을 ConvNeXt, Swin실험 등으로 바꿔서 성능향상을 이루지 못해 아쉬웠다.
+        - Sparse R-CNN, Double-Head R-CNN 등 다른 최신 R-CNN 계열이라면 어떤 결과였을지 궁금하다.
+
+- 앞으로의 다짐
+    - MMdetection 운용이나 모델 쌓는 능력이 미숙했다. 계속 공부를 해서 다양한 모델을 사용하고 익숙해지도록 노력하겠다.
+    - 나중에 MMdetection이 어느정도 익숙해지면 모델로 비교하면 하면서 특징을 알아보고 싶다
+    - R-CNN 계열을 맡았지만 관련 논문을 많이 읽지 못했다. R-CNN부터 Dynamic R-CNN 등 여러가지 R-CNN 계열 논문을 읽고, github 등을 참고하여 논문 구현을 하고 싶다. 
