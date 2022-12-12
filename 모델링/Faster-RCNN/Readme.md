@@ -17,16 +17,13 @@
 - 학습 과정  에이모 json ⇒ txt변환 ⇒ MMdetection  format변환 ⇒ train(학습)
     - json ⇒ txt변환
     
-<img width="1151" alt="스크린샷 2022-12-12 오전 11 15 41" src="https://user-images.githubusercontent.com/66895161/206948277-10721649-5ea8-4ca4-b79b-623200949b2e.png">
     
     - txt ⇒ MMdetection  format변환
         
-<img width="510" alt="스크린샷 2022-12-12 오전 11 17 32" src="https://user-images.githubusercontent.com/66895161/206948307-53de695b-ceb1-4ee6-95e6-3c0269c8ecac.png">
         
 
 - train(학습)
     
-<img width="307" alt="스크린샷 2022-12-12 오전 11 18 36" src="https://user-images.githubusercontent.com/66895161/206948381-852c16ce-e6a8-4a6e-be80-ef84d16b08a7.png">
     
 
 1.  학습을 진행했다.
@@ -35,7 +32,10 @@
 
 1. 아래의 그림과 같이 학습을 실패를 했다.
     
+<<<<<<< HEAD
 
+=======
+>>>>>>> d73a40f1e5d9d7b80abaa187b0138ad3c0326aaa
     
 
 1. 원인 ⇒ img를 0.5로 resize했지만 label은 변환하지 않았다.
@@ -55,7 +55,6 @@
 - adam01
     - train 결과
     
-    <img width="212" alt="스크린샷 2022-12-08 오전 11 04 39" src="https://user-images.githubusercontent.com/66895161/206948718-3117fbcd-9469-4106-8592-e10b717976e3.png">
 
     
 
@@ -68,13 +67,11 @@
 - SGD 01
     - train 결과
         
-        <img width="211" alt="스크린샷 2022-12-10 오후 6 36 27" src="https://user-images.githubusercontent.com/66895161/206948782-732edb02-94fc-4b6f-ad19-1b2bcb72fde4.png">
 
         
 
 - test 결과
     
-    <img width="387" alt="test_평가지표_con0 3" src="https://user-images.githubusercontent.com/66895161/206948786-0150d394-ef22-4b59-acab-f1de997d4b63.png">
 
     
 
