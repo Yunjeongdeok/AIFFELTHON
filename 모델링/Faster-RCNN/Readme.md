@@ -17,16 +17,13 @@
 - 학습 과정  에이모 json ⇒ txt변환 ⇒ MMdetection  format변환 ⇒ train(학습)
     - json ⇒ txt변환
     
-<img width="1151" alt="스크린샷 2022-12-12 오전 11 15 41" src="https://user-images.githubusercontent.com/66895161/206948277-10721649-5ea8-4ca4-b79b-623200949b2e.png">
     
     - txt ⇒ MMdetection  format변환
         
-<img width="510" alt="스크린샷 2022-12-12 오전 11 17 32" src="https://user-images.githubusercontent.com/66895161/206948307-53de695b-ceb1-4ee6-95e6-3c0269c8ecac.png">
         
 
 - train(학습)
     
-<img width="307" alt="스크린샷 2022-12-12 오전 11 18 36" src="https://user-images.githubusercontent.com/66895161/206948381-852c16ce-e6a8-4a6e-be80-ef84d16b08a7.png">
     
 
 1.  학습을 진행했다.
@@ -35,14 +32,12 @@
 
 1. 아래의 그림과 같이 학습을 실패를 했다.
     
-![Untitled](https://user-images.githubusercontent.com/66895161/206948474-bf406c85-dfde-46d0-8a01-17a410b2c437.png)
     
 
 1. 원인 ⇒ img를 0.5로 resize했지만 label은 변환하지 않았다.
 2. 해결 ⇒ label도 크기(숫자)를 0.5로 resize했다.
 3. 아래의 사진은 학습결과가 아닌 cv2로 확인한 결과이다. img와 label이 잘 변환되었다.
 
-![Untitled](https://user-images.githubusercontent.com/66895161/206948645-08376c39-7d2b-46f9-bde3-95c0c80c0d69.png)
 
 ## **학습 결과**
 
@@ -50,14 +45,12 @@
 2. 아래의 사진과 같이 학습이 잘 되었음을 알 수 있다.
     - 트래픽 사인(신호등 등)은 train 전에 제거했기에 detection하지 않는다.
         
-![Untitled](https://user-images.githubusercontent.com/66895161/206948674-5439c5cb-ff1d-47bc-8490-783858ed06ff.png)
         
 
 1.  그림과 같이 큰 변화는 없었다. 사진도 비슷비슷했다.
 - adam01
     - train 결과
     
-    <img width="212" alt="스크린샷 2022-12-08 오전 11 04 39" src="https://user-images.githubusercontent.com/66895161/206948718-3117fbcd-9469-4106-8592-e10b717976e3.png">
 
     
 
@@ -70,13 +63,11 @@
 - SGD 01
     - train 결과
         
-        <img width="211" alt="스크린샷 2022-12-10 오후 6 36 27" src="https://user-images.githubusercontent.com/66895161/206948782-732edb02-94fc-4b6f-ad19-1b2bcb72fde4.png">
 
         
 
 - test 결과
     
-    <img width="387" alt="test_평가지표_con0 3" src="https://user-images.githubusercontent.com/66895161/206948786-0150d394-ef22-4b59-acab-f1de997d4b63.png">
 
     
 
