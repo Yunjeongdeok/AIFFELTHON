@@ -70,23 +70,18 @@
 
     - hyperparameters: lr0=0.001, fl_gamma=1.0
     
-### 5차 : custom4
-
-    - 똑같은 값으로 재 실험을 했을때의 변화가 있을지 실험을 해보았다.
-
-    - hyperparameters: lr0=0.001, fl_gamma=1.0
-    
 ### 6차 : custom5
 
-    - 오버 슈팅인지 알아보기 위해 lr0과lrf둘 다 낮췄고 obj를 높여서 실험해 보았다. adam을 사용하였다.
-
-    - hyperparameters: lr0=0.001, lrf=0.01, obj=0.9
+    - obj를 낮췃을때 obj_loss가 수렴하지 못해서 이번엔 높여서 실험 해보았다.
+    - custom1에서 lr을 낮췄을 때 수렴하는 경향을 보여서 lr0과 lrf 둘다 낮춰서 실험을 해보았다.
+    - mAP가 조금 더 높아질 수 있을 것이라고 판단하여 epoch를 늘렸다.
+    - hyperparameters: lr0 : 0.001 lrf:0.01 , adam obj : 0.9, epoch : 200
 
 ### 7차 : custom6
 
-    - 오버 슈팅인지 알아보기 위해 lr0과lrf둘 다 낮췄고 obj를 높여서 실험해 보았다. adam을 사용하였다.
-
-    - hyperparameters: lr0=0.001, lrf=0.01, obj=0.9
+    - sgd-> adam변경시 momentom0.9, weight decay 0.00009로 해주는게 더 효과적이라는 것을 확인하여 변경
+    - 오버슈팅 문제는 아닌것 같아 lr-f를 0.1로 변경
+    - hyperparameters: momentom : 0.9, weight decay : 0.00009
     
 ### 8차 : custom7
 
